@@ -22,7 +22,7 @@
 
   
 
-  <title>研一学习日记（第一周） | Bei</title>
+  <title>Bei</title>
 
   
 
@@ -99,20 +99,15 @@
     <div class="header-content">
       <div class="post-text layout-block">
         <div class="layout-margin">
-          <h1 class="title-wrap">研一学习日记（第一周）</h1>
+          <h1 class="title-wrap"></h1>
           <h2 class="title-sub-wrap">
             <strong>陈卓</strong>
             <span>发布于</span>
-            <time  class="article-date" datetime="2025-04-18T06:24:50.390Z" itemprop="datePublished">2025-04-18</time>
+            <time  class="article-date" datetime="2025-07-14T01:25:09.498Z" itemprop="datePublished">2025-07-14</time>
           </h2>
           
-            <h2 class="last-time">
-              <span>最后更新于</span>
-              <time  class="article-updated" datetime="2024-09-04T11:45:10.984Z" itemprop="dateUpdated">2024-09-04</time>
-            </h2>
           
-          
-            <h2 id="/2025/04/18/%E7%A0%94%E4%B8%80%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0%EF%BC%88%E7%AC%AC%E4%B8%80%E5%91%A8%EF%BC%89/" class="title-sub-wrap leancloud_visitors" data-flag-title="研一学习日记（第一周）">
+            <h2 id="/2025/07/14/TimesNet%E7%9A%84%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" class="title-sub-wrap leancloud_visitors" data-flag-title="">
               <em>文章访问量</em>
               <i class="leancloud-visitors-count"></i>
             </h2>
@@ -144,25 +139,19 @@
       
       
       <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
-        <img src="/images/海边.JPG" width="90%">
-<br>biased   有偏见的
-<br>decay  衰败、衰落
-<br>elaborate   复杂的、详尽的  阐述
-<br>proficient 熟练的、精通的
-<br>chore 日常、事务、例行工作
-<br>be prooccupied with 专注于 
-<br>constrained 不自然的，强迫的，受压抑的
-<br>depict  描述，描绘
-<br>spacious宽敞的、广阔的
-<br>solitary 独自的、唯一的、单个的
-<br>discard 抛弃、丢弃
+        <p>title: TimeNet的学习记录</p>
+<h2 id="TimesNet-时间序列预测的最新模型"><a href="#TimesNet-时间序列预测的最新模型" class="headerlink" title="[TimesNet:时间序列预测的最新模型]"></a>[TimesNet:时间序列预测的最新模型]</h2><p>2020年发布的N-BEATS、2022年发布的N-HiTS和2023年3月发布的PatchTST开始。N-BEATS和N-HiTS依赖于多层感知器架构，而PatchTST利用了Transformer架构。</p>
+<p>2023年4月发表了一个新的模型，它在时间序列分析的多个任务中实现了最先进的结果，如预测、imputation、分类和异常检测:TimesNet。</p>
+<p>TimesNet由Wu、Hu、Liu等人在他们的论文《TimesNet: Temporal 2D-Variation Modeling For General Time Series Analysis》中提出。</p>
+<p>与以前的模型不同，它使用基于cnn的架构来跨不同的任务获得最先进的结果，使其成为时间序列分析的基础模型的绝佳候选。</p>
+<p>在本文中，我们将探讨TimesNet的架构和内部工作原理。然后将该模型应用于预测任务，与N-BEATS和N-HiTS进行对比。</p>
+<h2 id="TimesNet"><a href="#TimesNet" class="headerlink" title="TimesNet"></a>TimesNet</h2><p>TimesNet背后的动机来自于许多现实生活中的时间序列表现出多周期性的认识。这意味着变化发生在不同的时期。</p>
+<p>例如，室外温度有日周期和年周期。通常，白天比晚上热，夏天比冬天热。这些多个时期相互重叠和相互作用，使得很难单独分离和建模。</p>
+<p>周期内变化是指温度在一天内的变化，周期间变化是指温度每天或每年的变化。所以TimesNet的作者提出在二维空间中重塑序列，以模拟周期内和周期间的变化。</p>
+<p>TimesNet的架构</p>
+<img src="/images/TimesNet.png" width="90%">
 
-<p>ERT 电阻率层析成像    这种测量技术可以测量在管道的横截面上的电阻（电导率）的分布情况，迅速测量表并查看数据。<br>sobel算子  一种图像的边缘算法，大幅减少了数据量，省去了 不必要的信息，保留了图像数据的结构属性。</p>
-<p>最小二乘法（机器学习，线性回归）<br><img src="/images/最小二乘法.png" width="70%"><br>如上图所示：蓝点是真实数据，黄点是每个真实数据的估计值，红线的长短即代表真实与估计距离，目标就是找到一条直线（模型）使得所有红线累和最短，推广到多维空间，就是找到一个超平面，而这个超平面是有数学公式解的！</p>
-<p>ANN（Artificial Neural Network）人工神经网络（artificial neural network，ANN）简称神经网络（neural network，NN）或类神经网络，在机器学习和认知科学领域，是一种模仿生物神经网络（动物的中枢神经系统，特别是大脑）的结构和功能的数学模型或计算模型，用于对函数进行估计或近似。</p>
-<p>自然电位 把金属埋入土壤后，无外部电流影响时的结构对地电位。</p>
-<p>AGI 通用型人工智能</p>
-<p>不极化电极   俗称极罐，是电法勘探中用来接收电信号的装置，是一种特制的测量电位差用的接地电极。</p>
+<p>从上图中，我们可以看到TimesNet是多个带有跳过连接的TimesBlock的堆栈。</p>
 
       </section>
 
@@ -427,7 +416,7 @@
         <svg class="icon icon-article" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
   <path d="M240.51564747 647.74217627h196.07203239c16.59071043 0 30.16492806-13.57421762 30.16492805-30.16492806V165.10332731c0-33.18142087-30.16492806-60.32985613-60.32985612-60.32985611H245.04038668C225.43318342 104.7734712 210.35071939 119.85593522 210.35071939 139.46313845V617.57724821c0 16.59071043 13.57421762 30.16492806 30.16492808 30.16492806z m663.62841731-452.47392089v482.63884894c0 33.18142087-27.14843525 60.32985613-60.32985612 60.32985613H180.18579134c-33.18142087 0-60.32985613-27.14843525-60.32985612-60.32985613V195.26825538c-49.77213131 0-90.49478418 40.72265287-90.49478417 90.49478417v452.4739209c0 49.77213131 40.72265287 90.49478418 90.49478417 90.49478417h286.56681657c16.59071043 0 30.16492806 13.57421762 30.16492807 30.16492807s13.57421762 30.16492806 30.16492805 30.16492806h90.49478418c16.59071043 0 30.16492806-13.57421762 30.16492805-30.16492806s13.57421762-30.16492806 30.16492807-30.16492807h286.56681657c49.77213131 0 90.49478418-40.72265287 90.49478417-90.49478417V285.76303955c0-49.77213131-40.72265287-90.49478418-90.49478417-90.49478417zM587.41232014 647.74217627h191.54729318c19.60720323 0 34.68966726-15.08246403 34.68966729-34.68966727V134.93839925c0-16.59071043-13.57421762-30.16492806-30.16492808-30.16492805H617.57724821c-30.16492806 0-60.32985613 27.14843525-60.32985612 60.32985611v452.4739209c0 16.59071043 13.57421762 30.16492806 30.16492805 30.16492806z" fill="currentColor"></path>
 </svg>
-        <span>5</span>
+        <span>6</span>
       </div>
       <div class="count-box--item">
         <svg class="icon icon-categories" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
