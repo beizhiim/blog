@@ -149,10 +149,16 @@
 </blockquote>
 <h2 id="一、项目简介"><a href="#一、项目简介" class="headerlink" title="一、项目简介"></a>一、项目简介</h2><p>基于 <strong>STM32F103ZET6</strong> 设计并实现一款面向危废填埋场巡检场景的智能移动小车，采用集成双 L293D 电机驱动芯片的主控板，集成红外循迹、超声波避障、环境监测、火焰检测、异常告警及蓝牙通信等功能。通过多传感器数据采集、运动控制与无线数据交互，实现小车自主巡检、环境参数监测和异常状态告警，并支持通过手机 APP 进行远程监测。</p>
 <p>项目采用 C 语言，基于 STM32 标准外设库完成外设配置与底层驱动开发，涉及 GPIO、定时器、外部中断、ADC、I²C、USART 等外设，并通过 OLED、LCD1602 实现巡检状态与环境数据的可视化。</p>
-<img src="/images/小车.jpg" width="80%">
+<img src="/images/小车.jpg">
 
-<img src="/images/车app.png" width="80%">
+<blockquote>
+<p>图：智能巡检车图</p>
+</blockquote>
+<img src="/images/车app.png" width="50%">
 
+<blockquote>
+<p>图：App界面图</p>
+</blockquote>
 <h2 id="二、技术栈"><a href="#二、技术栈" class="headerlink" title="二、技术栈"></a>二、技术栈</h2><ul>
 <li><strong>主控平台：</strong> STM32F103ZET6 智能小车主控板</li>
 <li><strong>开发语言：</strong> C 语言</li>
